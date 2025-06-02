@@ -10,13 +10,13 @@ Dette projekt introducerer konceptet *Agentic AI* i en praktisk og tilgængelig 
 - En guide til teknologier og frameworks
 - En inspirationskilde til hackathon-deltagere
 
-## 🗂️ Struktur
+## 🗂️ Indhold
 
 | Fil / mappe                 | Beskrivelse                                         |
-| --------------------------- | --------------------------------------------------- |
-| agentic-ai-whitepaper.md | Det komplette white paper (Markdown-format)         |
-| `sources-and-resources.md`  | Kilder, links og videre læsning                     |
-| `bilag-a.md`                | Begrebsforklaringer, promptskabeloner og diagrammer |
+|----------------------------|-----------------------------------------------------|
+| [agentic-ai-whitepaper.md](./agentic-ai-whitepaper.md) | Det komplette white paper (Markdown-format)         |
+| [sources-and-resources.md](./sources-and-resources.md) | Kilder, links og videre læsning                     |
+| [bilag-a.md](./bilag-a.md)                             | Begrebsforklaringer, promptskabeloner og diagrammer |
 
 
 ## 🚀 Kom i gang
