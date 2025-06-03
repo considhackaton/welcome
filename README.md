@@ -14,7 +14,7 @@ Dette projekt introducerer konceptet *Agentic AI* i en praktisk og tilgængelig 
 
 | Fil / mappe                 | Beskrivelse                                         |
 |----------------------------|-----------------------------------------------------|
-| [agentic-ai-whitepaper.md](./agentic-ai-whitepaper.md) | Det komplette white paper (Markdown-format)         |
+| [agentic-ai-whitepaper.md](./agentic-ai-whitepaper.md) | Introduktion til Agentic AI       |
 | [sources-and-resources.md](./sources-and-resources.md) | Kilder, links og videre læsning                     |
 | [bilag-a.md](./bilag-a.md)                             | Begrebsforklaringer, promptskabeloner og diagrammer |
 
