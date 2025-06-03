@@ -1,6 +1,6 @@
 # Agentic AI Hackathon – White Paper Repository
 
-Velkommen til dette repository, der understøtter **Agentic AI Hackathon**. Her finder du white paper, kildefiler, bilag og eksempler, der hjælper dig med at forstå, udvikle og eksperimentere med agentiske AI-løsninger – uanset om du arbejder med no-code eller kode.
+Velkommen til dette repository, der er udarbejdet i forbindelse med den kommende hackatong omkring **Agentic AI**. Her finder en introduktion til Agentic AI og med tiden eksempler på Agentic AI.
 
 ## 🎯 Formål
 
@@ -23,7 +23,6 @@ Dette projekt introducerer konceptet *Agentic AI* i en praktisk og tilgængelig 
 
 1. Læs whitepaperet for at forstå Agentic AI og de foreslåede agenttyper
 2. Udforsk bilag for at se konkrete prompts og arkitekturtyper
-3. Brug inspirationen i hackathonens no-code eller udviklingsspor
 
 ## 📄 Licens
 
