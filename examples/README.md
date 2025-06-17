@@ -4,6 +4,7 @@ This repo contains two simple yet powerful demonstrations of **Agentic AI patter
 
 - `simple`: A minimal example that sends a static message to an LLM
 - `structured`: A more advanced agent that uses structured prompts (Role, Goal, Style, Context)
+- `agent2agen`: Showing how agents can be tied together.
 
 Agentic AI is about **giving AI agents a purpose, memory, and autonomy** — moving beyond passive chatbots. These demos are designed to help you understand and prototype that mindset.
 
@@ -63,6 +64,12 @@ curl http://localhost:8080/structured-prompt/2 q
 ```
 
 You’ll get an answer from a "Technical Solution Architect" agent.
+
+---
+### `agent2agent/` – Agent-to-Agent Collaboration
+
+Explore how two agents can collaborate using structured prompts:  
+one generates a raw idea, the next improves it. Simple, powerful, and agentic by design.
 
 ---
 

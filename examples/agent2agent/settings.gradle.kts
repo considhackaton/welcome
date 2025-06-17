@@ -1,0 +1,1 @@
+rootProject.name = "Simple Agentic AI prompt"
