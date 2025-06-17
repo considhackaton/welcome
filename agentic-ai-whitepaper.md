@@ -129,7 +129,7 @@ En protokol for social og samarbejdende kommunikation mellem agenter, fx i dialo
 
 ## 8. Kilder og videre læsning
 
-Se: `sources-and-resources.md`
+Se: [sources and resources](./sources-and-resources.md)
 
 ---
 
