@@ -1,1 +1,0 @@
-rootProject.name = "agentic-ai-kotlin"
