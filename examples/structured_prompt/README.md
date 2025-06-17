@@ -1,79 +1,108 @@
-# 🧱 Agentic AI – Structured Prompt Demo
+# 🧱 `structured/` – Structured Prompts & Agent Personas
 
-This project demonstrates how to build a **structured agent** using Spring AI and Kotlin — where each agent follows a clearly defined **role**, **goal**, **style**, and **context**.
+This demo expands on the simple project by introducing a more **agentic and modular approach** to prompting.
 
-Instead of just throwing arbitrary messages at the LLM, this demo explores a cleaner and more modular approach inspired by **Model Context Protocol (MCP)** and **agentic design principles**.
+Instead of sending a free-form message to the LLM, each agent is defined using a consistent schema:
 
----
+- **Role** – Who is speaking? (e.g., Instructor, Architect, Business Advisor)
+- **Goal** – What are they trying to achieve?
+- **Style** – How should the response be phrased?
+- **Context** – What should the agent assume about the user?
 
-## 📌 Why Structured Prompts?
-
-In many LLM-based systems, you just throw a question into a generic assistant and hope for the best.
-
-This demo does something different: it **wraps the agent in identity and purpose**.
-
-Each request is constructed with a structured prompt like:
-
-```
-Role: Patient Instructor  
-Goal: Explain complex topics to non-experts  
-Style: Friendly and clear  
-Context: User is new to Agentic AI
-```
-
-This gives the model a **consistent personality** and **limits scope creep**.
-
-It also allows you to:
-
-- Swap between agent personas easily
-- Reuse structured behavior
-- Log or audit prompt configurations
-- Chain agents together with clear hand-offs
+This approach is inspired by principles like the **Model Context Protocol (MCP)** and general best practices from the Agentic AI community.
 
 ---
 
-## 🚀 How to Run
+## 🎯 Why Structured Prompts?
 
-1. Make sure you have [Ollama](https://ollama.com) running locally (with a model like `llama3` downloaded):
+Traditional prompts can quickly become brittle and hard to reuse.
 
-   ```bash
-   ollama run llama3
-   ```
+With structured prompts, your agents become:
 
-2. Run the Spring Boot app:
+- ✅ **Predictable** – Clear behavior and scope
+- 🔄 **Composable** – Easy to combine in chains or switch between roles
+- 🧪 **Testable** – Individual agent configurations can be reused across scenarios
+- 👥 **Human-like** – Agents behave with identity and purpose
 
-   ```bash
-   ./gradlew bootRun
-   ```
-
-3. Visit this endpoint in your browser or with curl:
-
-   ```
-   http://localhost:8080/structured-prompt/0
-   ```
-
-   This sends a standard question:
-   ```
-   What is Agentic AI, and how is it different from regular AI assistants?
-   ```
-
-   …to an agent defined by the selected index (e.g. index 0 = "Patient Instructor").
+This structure is also a stepping stone toward **autonomous agents** that reason, reflect, and improve.
 
 ---
 
-## 🧪 Available Agents
-
-| ID | Role                     | Goal                                                      |
-|----|--------------------------|------------------------------------------------------------|
-| 0  | Patient Instructor        | Explain concepts clearly to non-experts                   |
-| 1  | Strategic Business Advisor| Discuss business value and risks                          |
-| 2  | Technical Solution Architect | Dive into implementation of Agentic AI                  |
-| 3  | AI Ethics Advisor        | Reflect on implications and risks                         |
-| 4  | Creative Storyteller     | Make concepts fun and easy to grasp                      |
-| 5  | Impatient Husband 🧪      | Explain reluctantly to someone who didn't really ask 😉    |
-
-Try calling:
+## 🧪 Example
 
 ```bash
-curl http://localhost:8080/structured-prompt/1
+curl http://localhost:8080/structured-prompt/2
 ```
+
+Returns a response from:
+
+```
+Role: Technical Solution Architect
+Goal: Explain implementation
+Style: Precise and code-aware
+Context: Spring AI developer
+```
+
+---
+
+---
+
+## 🤖 How It Works
+
+Each `/structured-prompt/{id}` call uses a different persona (e.g., Instructor, Business Advisor, etc.)
+
+---
+
+## 🧪 Example
+
+```bash
+curl http://localhost:8080/structured-prompt/2
+```
+
+Returns a response from:
+
+```
+Role: Technical Solution Architect
+Goal: Explain implementation
+Style: Precise and code-aware
+Context: Spring AI developer
+```
+
+---
+
+## 🧠 Why Structured Prompts?
+
+- Easier to test personas
+- Promotes separation of concerns
+- Works well with chaining & memory
+
+---
+
+## ✨ Try These Personas
+
+| ID | Role                     | Goal                                |
+|----|--------------------------|-------------------------------------|
+| 0  | Patient Instructor        | Teach in plain language             |
+| 1  | Strategic Business Advisor| Identify value and risks            |
+| 2  | Technical Architect       | Guide software implementation       |
+| 3  | Ethics Advisor            | Analyze ethical implications        |
+| 4  | Creative Storyteller      | Explain with fun analogies          |
+| 5  | Impatient Husband (fun)   | Grumpy explanation                  |
+
+---
+
+## 🔧 Setup
+
+Use the same setup as in `/simple`:
+
+```bash
+ollama pull llama3
+ollama run llama3
+./gradlew bootRun
+```
+
+---
+
+## 🪪 License
+
+MIT – build something agentic 🚀
