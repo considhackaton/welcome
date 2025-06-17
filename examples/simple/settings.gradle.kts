@@ -1,1 +1,1 @@
-rootProject.name = "agentic-ai-kotlin"
+rootProject.name = "Simple Agentic AI prompt"
