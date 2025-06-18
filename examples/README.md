@@ -4,7 +4,7 @@ This repo contains two simple yet powerful demonstrations of **Agentic AI patter
 
 - `simple`: A minimal example that sends a static message to an LLM
 - `structured`: A more advanced agent that uses structured prompts (Role, Goal, Style, Context)
-- `agent2agen`: Showing how agents can be tied together.
+- `agent2agent`: Showing how agents can be tied together.
 
 Agentic AI is about **giving AI agents a purpose, memory, and autonomy** — moving beyond passive chatbots. These demos are designed to help you understand and prototype that mindset.
 

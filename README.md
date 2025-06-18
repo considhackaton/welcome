@@ -15,6 +15,7 @@ Dette projekt introducerer konceptet *Agentic AI* i en praktisk og tilgængelig 
 | Fil / mappe                 | Beskrivelse                                         |
 |----------------------------|-----------------------------------------------------|
 | [agentic-ai-whitepaper.md](./agentic-ai-whitepaper.md) | Introduktion til Agentic AI       |
+| [Præsentation og demo](./examples) | Små demo applikationer
 | [sources-and-resources.md](./sources-and-resources.md) | Kilder, links og videre læsning                     |
 | [bilag-a.md](./bilag-a.md)                             | Begrebsforklaringer, promptskabeloner og diagrammer |
 
@@ -22,7 +23,8 @@ Dette projekt introducerer konceptet *Agentic AI* i en praktisk og tilgængelig 
 ## 🚀 Kom i gang
 
 1. Læs whitepaperet for at forstå Agentic AI og de foreslåede agenttyper
-2. Udforsk bilag for at se konkrete prompts og arkitekturtyper
+2. Læs om eller prøv demo'er
+3. Udforsk bilag for at se konkrete prompts og arkitekturtyper
 
 ## 📄 Licens
 
